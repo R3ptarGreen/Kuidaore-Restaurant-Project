@@ -3,6 +3,7 @@
     &__textContainer{
         @include flex(column, 0.5rem, center, center);
         z-index: 1;
+        cursor: default;
         
     }
     &__title{
@@ -23,4 +24,5 @@
     background-color: var(--primary);
     color: var(--text);
     border-radius: 1rem;
+    cursor: pointer;
 }
