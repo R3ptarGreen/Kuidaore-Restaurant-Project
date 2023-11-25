@@ -4,7 +4,8 @@ import './FooterContainer.scss';
 
 const FooterContainer = () => {
   return (
-    <div>
+    <div className='footer__footerContainer'>
+      <div className='footer__footerSectionsContainer'>
         <FooterBrand/>
         <FooterSections 
           title={'Company Info'}
@@ -20,6 +21,10 @@ const FooterContainer = () => {
           one={'IOS & Android'}
           two={'Customers'}
           three={'API'}/>
+      </div>
+      <div className='footer__footerCopyright'>
+        <p>Designed With Figma And Coded By Edgar Mendez</p>
+      </div>
     </div>
   )
 }
