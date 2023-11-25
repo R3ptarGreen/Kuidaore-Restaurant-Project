@@ -5,7 +5,7 @@ const Icon = ({altIcon, link}) => {
 const routeIcon = `/public/assets/svg/${altIcon}.svg`;
     return (
     <>
-        <a className='iconLink' href={link}><img src={routeIcon} alt={altIcon} /></a>
+        <a className='iconLink' href={link}><img className='iconImg' src={routeIcon} alt={altIcon} /></a>
     </>
   )
 }

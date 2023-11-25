@@ -10,7 +10,7 @@
 .mobile{
     &__menu{
         position: absolute;
-        bottom: -13rem;
+        bottom: -12rem;
         right: 0rem;
         padding:  1rem 2rem;  
         background-color: var(--background);
@@ -19,6 +19,7 @@
 
 .visible{
     display: block;
+    animation: scale-up-tr 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .noVisible {
     display: none;
