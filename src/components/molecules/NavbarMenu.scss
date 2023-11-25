@@ -6,6 +6,9 @@
         @include flex(row, 0, end, center);
         position:relative;
     }
+    &__desktop{
+        display: none;
+    }
 }
 .mobile{
     &__menu{
@@ -30,4 +33,16 @@
 }
 .noOpen{
     display: none;
+}
+
+@media (min-width: 600px) {
+    .menu{
+        &__mobile{
+            display: none;
+        }
+        &__desktop{
+            display: flex;
+            margin-right: 2rem;
+        }
+    }
 }

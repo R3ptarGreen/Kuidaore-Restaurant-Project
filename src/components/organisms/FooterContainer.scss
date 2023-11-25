@@ -8,7 +8,8 @@
         padding-bottom: 2rem;
     }
     &__footerSectionsContainer{
-        @include flex(column, 2rem, start, center);
+        @include flex(row, 2rem, center, center);
+        flex-wrap: wrap;
     }
     &__footerCopyright{
         text-align: center;

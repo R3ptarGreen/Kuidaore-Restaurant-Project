@@ -30,7 +30,9 @@ const NavbarMenu = () => {
 					<LinkMenu />
 				</div>
 			</div>
-			<div className='menu__desktop'></div>
+			<div className='menu__desktop'>
+				<LinkMenu/>
+			</div>
 		</div>
 	);
 };

@@ -2,7 +2,8 @@
 
 .footer{
     &__footerSections{
-        @include flex(column, 1.25rem, start, center);
+        @include flex(column, 1.25rem, center, start);
+        min-height: 8.5rem;
     }
     &__footerSectionsTitle{
         color: var(--text);

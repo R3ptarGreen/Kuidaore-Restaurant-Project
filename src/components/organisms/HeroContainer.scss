@@ -4,12 +4,37 @@
         @include flex(row, 0, center, center);
         padding-top: 3rem;
         width: 100%;
-        min-height: 45vh;
-        position: relative;
         z-index: 0; 
     }
-    &__img{
-        position: absolute;
-        z-index: 0;
+    &__containerContent{
+        @include flex(row, 0, center, center);
+        width: 100%;
+        min-height: 15rem;
+        background-image: url('../../../public/assets/img/heroImgDesktop.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
+}
+
+@media (min-width: 500px) {
+    .hero{
+        &__containerContent{
+            min-height: 20rem;
+        }
+    } 
+}
+@media (min-width: 750px) {
+    .hero{
+        &__containerContent{
+            min-height: 35rem;
+        }
+    } 
+}
+@media (min-width: 1300px) {
+    .hero{
+        &__containerContent{
+            min-height: 45rem;
+        }
+    } 
 }
