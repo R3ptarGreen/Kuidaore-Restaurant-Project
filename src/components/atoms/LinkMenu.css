@@ -1,0 +1,9 @@
+.linkMenu {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: end;
+  flex-wrap: wrap; }

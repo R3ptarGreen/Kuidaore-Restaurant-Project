@@ -1,0 +1,19 @@
+@keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-180deg) scale(0);
+    transform: rotate(-180deg) scale(0);
+    opacity: 0; }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+    opacity: 1; } }
+
+@keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }

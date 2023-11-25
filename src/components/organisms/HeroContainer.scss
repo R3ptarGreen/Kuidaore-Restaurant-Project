@@ -1,0 +1,15 @@
+@import '../../global/mixins.scss';
+.hero{
+    &__container{
+        @include flex(row, 0, center, center);
+        padding-top: 3rem;
+        width: 100%;
+        min-height: 45vh;
+        position: relative;
+        z-index: 0; 
+    }
+    &__img{
+        position: absolute;
+        z-index: 0;
+    }
+}

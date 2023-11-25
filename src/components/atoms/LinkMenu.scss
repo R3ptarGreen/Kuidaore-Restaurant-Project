@@ -1,0 +1,8 @@
+@import '../../global/mixins.scss';
+
+.linkMenu{
+    @include flex(row, 1rem, center, center);
+    color: white;
+    text-align: end;
+    flex-wrap: wrap;
+}
