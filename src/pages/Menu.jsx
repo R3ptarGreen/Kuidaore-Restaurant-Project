@@ -1,15 +1,15 @@
 import FooterTemplates from "../components/templates/FooterTemplates"
-import HeroTemplate from "../components/templates/HeroTemplate"
+import MenuTemplate from "../components/templates/MenuTemplate"
 import NavbarTemplate from "../components/templates/NavbarTemplate"
 
-const Home = () => {
+const Menu = () => {
   return (
     <>
         <NavbarTemplate/>
-        <HeroTemplate/>
+        <MenuTemplate/>
         <FooterTemplates/>
     </>
   )
 }
 
-export default Home
+export default Menu

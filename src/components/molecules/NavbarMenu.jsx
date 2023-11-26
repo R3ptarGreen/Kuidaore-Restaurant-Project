@@ -6,31 +6,31 @@ import { useState } from 'react';
 const NavbarMenu = () => {
 	const [isMobileMenuVisible, setMobileMenuVisible] = useState(false);
 
-  const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isMenuNavOpen, setMenuNavOpen] = useState(false);
 
-	const menuToggle = () => {
+	const menuNavToggle = () => {
 		setMobileMenuVisible(!isMobileMenuVisible);
-    setMenuOpen(!isMenuOpen);
+    setMenuNavOpen(!isMenuNavOpen);
 	};
 
 	return (
-		<div className='navbar__menu menu'>
-			<div className='menu__mobile mobile'>
+		<div className='navbar__menu menuNav'>
+			<div className='menuNav__mobile mobile'>
 				<IconMenuToggle
-					classNameMenu={`${isMenuOpen ? 'noOpen': '' }`}
-					classNameCloseMenu={`${isMenuOpen ? 'open': 'noOpen'}`}
-					menuToggle={menuToggle}
+					classNameMenu={`${isMenuNavOpen ? 'noOpen': '' }`}
+					classNameCloseMenu={`${isMenuNavOpen ? 'open': 'noOpen'}`}
+					menuToggle={menuNavToggle}
 				/>
 
 				<div
-					className={`mobile__menu ${
+					className={`mobile__menuNav ${
 						isMobileMenuVisible ? 'visible' : 'noVisible'
 					}`}
 				>
 					<LinkMenu />
 				</div>
 			</div>
-			<div className='menu__desktop'>
+			<div className='menuNav__desktop'>
 				<LinkMenu/>
 			</div>
 		</div>

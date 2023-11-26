@@ -1,7 +1,7 @@
 @import '../../global/mixins.scss';
 @import '../../global/keyframes.scss';
 
-.menu{
+.menuNav{
     &__mobile{
         @include flex(row, 0, end, center);
         position:relative;
@@ -11,7 +11,7 @@
     }
 }
 .mobile{
-    &__menu{
+    &__menuNav{
         position: absolute;
         bottom: -12rem;
         right: 0rem;
@@ -36,7 +36,7 @@
 }
 
 @media (min-width: 600px) {
-    .menu{
+    .menuNav{
         &__mobile{
             display: none;
         }
