@@ -4,6 +4,7 @@ import App from './App.jsx'
 import {RouterProvider, createBrowserRouter} from 'react-router-dom'
 import Error from './pages/Error.jsx'
 import Menu from './pages/Menu.jsx'
+import Restaurants from './pages/Restaurants.jsx'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: '/menu',
     element: <Menu/>
+  },
+  {
+    path: '/restaurants',
+    element: <Restaurants/>
   },
   {
     path: '*',

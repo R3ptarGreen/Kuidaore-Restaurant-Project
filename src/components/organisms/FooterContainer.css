@@ -10,10 +10,11 @@
 
 .footer__footerSectionsContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 2rem;
   justify-content: center;
-  align-items: start; }
+  align-items: center;
+  flex-wrap: wrap; }
 
 .footer__footerCopyright {
   text-align: center;
