@@ -1,12 +1,11 @@
-import HeroContainer from "../organisms/HeroContainer"
-
+import HeroContainer from '../organisms/HeroContainer/HeroContainer';
 
 const HeroTemplate = () => {
-  return (
-    <>
-        <HeroContainer/>
-    </>
-  )
-}
+	return (
+		<>
+			<HeroContainer />
+		</>
+	);
+};
 
-export default HeroTemplate
+export default HeroTemplate;

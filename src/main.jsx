@@ -5,6 +5,7 @@ import {RouterProvider, createBrowserRouter} from 'react-router-dom'
 import Error from './pages/Error.jsx'
 import Menu from './pages/Menu.jsx'
 import Restaurants from './pages/Restaurants.jsx'
+import Gallery from './pages/Gallery.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: '/restaurants',
     element: <Restaurants/>
+  },
+  {
+    path: '/gallery',
+    element: <Gallery/>
   },
   {
     path: '*',

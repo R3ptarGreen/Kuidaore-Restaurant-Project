@@ -1,0 +1,18 @@
+@import '../../../global/mixins.scss';
+
+.footer{
+    &__footerContainer{
+        @include flex(column, 2rem, center, center);
+        padding: 0 4rem;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+    &__footerSectionsContainer{
+        @include flex(row, 2rem, center, center);
+        flex-wrap: wrap;
+    }
+    &__footerCopyright{
+        text-align: center;
+        color: var(--text);
+    }
+}

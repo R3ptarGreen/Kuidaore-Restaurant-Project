@@ -1,11 +1,11 @@
-import MenuContainer from "../organisms/MenuContainer"
+import MenuContainer from '../organisms/MenuContainer/MenuContainer';
 
 const MenuTemplate = () => {
-  return (
-    <>
-        <MenuContainer/>
-    </>
-  )
-}
+	return (
+		<>
+			<MenuContainer />
+		</>
+	);
+};
 
-export default MenuTemplate
+export default MenuTemplate;

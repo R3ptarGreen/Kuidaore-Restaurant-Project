@@ -1,0 +1,28 @@
+@import '../../../global/mixins.scss';
+.hero{
+    &__textContainer{
+        @include flex(column, 0.5rem, center, center);
+        z-index: 1;
+        cursor: default;
+        
+    }
+    &__title{
+        color: var(--text);
+        font-family: Work Sans;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+    &__text{
+        color: var(--text);
+        text-align: center;
+    }
+}
+.heroButtonPrimary{
+    background-color: var(--primary);
+    color: var(--text);
+    border-radius: 1rem;
+    cursor: pointer;
+}

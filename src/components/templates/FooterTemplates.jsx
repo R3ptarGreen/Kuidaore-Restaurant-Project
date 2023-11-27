@@ -1,11 +1,11 @@
-import FooterContainer from "../organisms/FooterContainer"
+import FooterContainer from '../organisms/FooterContainer/FooterContainer';
 
 const FooterTemplates = () => {
-  return (
-    <footer>
-        <FooterContainer/>
-    </footer>
-  )
-}
+	return (
+		<footer>
+			<FooterContainer />
+		</footer>
+	);
+};
 
-export default FooterTemplates
+export default FooterTemplates;

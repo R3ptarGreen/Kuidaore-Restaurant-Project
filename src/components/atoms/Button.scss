@@ -1,6 +1,0 @@
-@import '../../global/mixins.scss';
-
-.button{
-    @include flex(row, 0, center, center);
-    padding: 1rem 2rem;
-}

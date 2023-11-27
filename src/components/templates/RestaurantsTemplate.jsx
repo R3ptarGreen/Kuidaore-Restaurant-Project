@@ -1,11 +1,11 @@
-import RestaurantsContainer from "../organisms/RestaurantsContainer"
+import RestaurantsContainer from '../organisms/RestaurantsContainer/RestaurantsContainer';
 
 const RestaurantsTemplate = () => {
-  return (
-    <>
-      <RestaurantsContainer/>
-    </>
-  )
-}
+	return (
+		<>
+			<RestaurantsContainer />
+		</>
+	);
+};
 
-export default RestaurantsTemplate
+export default RestaurantsTemplate;
