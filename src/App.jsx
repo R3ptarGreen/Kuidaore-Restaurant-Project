@@ -1,10 +1,14 @@
+import { Outlet } from 'react-router-dom'
 import './App.scss'
-import Home from './pages/Home'
+import FooterTemplates from './components/templates/FooterTemplates'
+import NavbarTemplate from './components/templates/NavbarTemplate'
 
 function App() {
   return (
     <>
-      <Home/>
+      <NavbarTemplate/>
+      <Outlet/>
+      <FooterTemplates/>
     </>
   )
 }
