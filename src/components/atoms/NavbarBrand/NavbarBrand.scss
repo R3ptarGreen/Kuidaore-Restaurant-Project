@@ -1,17 +1,17 @@
 @import '../../../global/mixins.scss';
 
-.navbar{
-    &__brandContainer{
-        @include flex(row, 0.625rem, center, center);
-        padding: 0.625rem;
-    }
-    &__brandText{
-        color: var(--text);
-        font-family: Work Sans;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        cursor: default;
-    }
+.navbar {
+	&__brandContainer {
+		@include flex(row, 0.625rem, center, center);
+		padding: 0.625rem;
+	}
+	&__brandText {
+		color: var(--text);
+		font-family: Work Sans;
+		font-size: 2rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		cursor: default;
+	}
 }

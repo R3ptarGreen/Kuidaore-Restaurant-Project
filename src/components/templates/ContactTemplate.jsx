@@ -1,11 +1,11 @@
-import ContactContainer from "../organisms/ContactContainer/ContactContainer"
+import ContactContainer from '../organisms/ContactContainer/ContactContainer';
 
 const ContactTemplate = () => {
-  return (
-    <>
-        <ContactContainer/>
-    </>
-  )
-}
+	return (
+		<>
+			<ContactContainer />
+		</>
+	);
+};
 
-export default ContactTemplate
+export default ContactTemplate;

@@ -1,22 +1,22 @@
 @import '../../../global/mixins.scss';
-.footer{
-    &__footerBrand{
-        @include flex(column, 1.5rem, start, center);
-    }
-    &__footerBrandContainerTitle{
-        @include flex(row, 0.625rem, center, center);
-        padding: 0.625rem;
-    }
-    &__footerBrandTitle{
-        color: var(--text);
-        font-family: Work Sans;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        cursor: default;
-    }
-    &__footerBrandContainerMedia{
-        @include flex(row, 1.25rem, start, center);
-    }
+.footer {
+	&__footerBrand {
+		@include flex(column, 1.5rem, start, center);
+	}
+	&__footerBrandContainerTitle {
+		@include flex(row, 0.625rem, center, center);
+		padding: 0.625rem;
+	}
+	&__footerBrandTitle {
+		color: var(--text);
+		font-family: Work Sans;
+		font-size: 2rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		cursor: default;
+	}
+	&__footerBrandContainerMedia {
+		@include flex(row, 1.25rem, start, center);
+	}
 }

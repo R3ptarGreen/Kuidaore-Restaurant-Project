@@ -1,29 +1,29 @@
 //keyframes to animation
 
 @keyframes swirl-in-fwd {
-    0% {
-      -webkit-transform: rotate(-180deg) scale(0);
-              transform: rotate(-180deg) scale(0);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotate(0) scale(1);
-              transform: rotate(0) scale(1);
-      opacity: 1;
-    }
+	0% {
+		-webkit-transform: rotate(-180deg) scale(0);
+		transform: rotate(-180deg) scale(0);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: rotate(0) scale(1);
+		transform: rotate(0) scale(1);
+		opacity: 1;
+	}
 }
 
 @keyframes scale-up-tr {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    -webkit-transform-origin: 100% 0%;
-            transform-origin: 100% 0%;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform-origin: 100% 0%;
-            transform-origin: 100% 0%;
-  }
+	0% {
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+		-webkit-transform-origin: 100% 0%;
+		transform-origin: 100% 0%;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: 100% 0%;
+		transform-origin: 100% 0%;
+	}
 }

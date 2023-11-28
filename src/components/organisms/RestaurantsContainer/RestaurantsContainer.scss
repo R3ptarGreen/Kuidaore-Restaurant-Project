@@ -1,63 +1,63 @@
 @import '../../../global/mixins.scss';
-.rest{
-    @include flex(row, 1rem, center, center);
-    padding-top: 6rem;
-    min-height: 90vh;
-    background-color: var(--secondary);
-    &__container{
-        @include flex(row, 2rem, center, center);
-        flex-direction: column-reverse;
-    }
-    &__activeInfoContainer{
-        @include flex(column, 2rem, center, center);
-        max-width: 15rem;
-    }
-   
-    &__activeMapContainer{
-        @include flex(row, 0, center, center);
-        width: fit-content;
-        height: 20rem;
-    }
-    &__map{
-        width: 20rem;
-        height: 20rem;
-        border-radius: 100%;
-        z-index: 0;
-    }
-} 
+.rest {
+	@include flex(row, 1rem, center, center);
+	padding-top: 6rem;
+	min-height: 90vh;
+	background-color: var(--secondary);
+	&__container {
+		@include flex(row, 2rem, center, center);
+		flex-direction: column-reverse;
+	}
+	&__activeInfoContainer {
+		@include flex(column, 2rem, center, center);
+		max-width: 15rem;
+	}
+
+	&__activeMapContainer {
+		@include flex(row, 0, center, center);
+		width: fit-content;
+		height: 20rem;
+	}
+	&__map {
+		width: 20rem;
+		height: 20rem;
+		border-radius: 100%;
+		z-index: 0;
+	}
+}
 @media (min-width: 700px) {
-    .rest{
-    &__container{
-        @include flex(row, 2rem, center, center);
-    }
-    &__activeInfoContainer{
-        max-width: 18rem;
-    }
-   
-    &__activeMapContainer{
-        height: 23rem;
-    }
-    &__map{
-        width: 23rem;
-        height: 23rem;
-    }
-    }
-}  
+	.rest {
+		&__container {
+			@include flex(row, 2rem, center, center);
+		}
+		&__activeInfoContainer {
+			max-width: 18rem;
+		}
+
+		&__activeMapContainer {
+			height: 23rem;
+		}
+		&__map {
+			width: 23rem;
+			height: 23rem;
+		}
+	}
+}
 @media (min-width: 950px) {
-    .rest{
-    &__container{
-        @include flex(row, 2rem, center, center);
-    }
-    &__activeInfoContainer{
-        max-width: 30rem;
-    }
-   
-    &__activeMapContainer{
-        height: 35rem;
-    }
-    &__map{
-        width: 35rem;
-        height: 35rem;
-    }
-    }
+	.rest {
+		&__container {
+			@include flex(row, 2rem, center, center);
+		}
+		&__activeInfoContainer {
+			max-width: 30rem;
+		}
+
+		&__activeMapContainer {
+			height: 35rem;
+		}
+		&__map {
+			width: 35rem;
+			height: 35rem;
+		}
+	}
 }

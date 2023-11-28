@@ -1,11 +1,11 @@
-import ContactTemplate from "../components/templates/ContactTemplate"
+import ContactTemplate from '../components/templates/ContactTemplate';
 
 const Contact = () => {
-  return (
-    <>
-        <ContactTemplate/>
-    </>
-  )
-}
+	return (
+		<>
+			<ContactTemplate />
+		</>
+	);
+};
 
-export default Contact
+export default Contact;

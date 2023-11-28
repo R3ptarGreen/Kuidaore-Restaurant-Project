@@ -10,7 +10,7 @@ const ContactSection = () => {
 			.then(data => setData(data))
 			.catch(error => console.log('Error DataBase', error));
 	}, []);
-    console.log(data)
+	console.log(data);
 	return (
 		<section className='contact__section'>
 			<div className='contact__sectionTextContainer'>
@@ -26,9 +26,7 @@ const ContactSection = () => {
 						</div>
 					);
 				})}
-				<form action="">
-					
-				</form>
+				<form action=''></form>
 			</div>
 		</section>
 	);

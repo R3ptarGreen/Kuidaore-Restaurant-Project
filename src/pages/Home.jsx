@@ -1,15 +1,11 @@
-
-import HeroTemplate from "../components/templates/HeroTemplate"
-
+import HeroTemplate from '../components/templates/HeroTemplate';
 
 const Home = () => {
-  return (
-    <>
-    
-        <HeroTemplate/>
-      
-    </>
-  )
-}
+	return (
+		<>
+			<HeroTemplate />
+		</>
+	);
+};
 
-export default Home
+export default Home;

@@ -1,19 +1,24 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
-const Img = ({altImg, className, onClick}) => {
-    const routeFile = `/public/assets/img/${altImg}.png`;
+const Img = ({ altImg, className, onClick }) => {
+	const routeFile = `/public/assets/img/${altImg}.png`;
 
-  return (
-    <>
-        <img className={className} src={routeFile} alt={altImg} onClick={onClick}/>
-    </>
-  )
-}
+	return (
+		<>
+			<img
+				className={className}
+				src={routeFile}
+				alt={altImg}
+				onClick={onClick}
+			/>
+		</>
+	);
+};
 
 Img.propTypes = {
-  onClick: PropTypes.func,
-  altImg: PropTypes.string,
-  className: PropTypes.string
-}
+	onClick: PropTypes.func,
+	altImg: PropTypes.string,
+	className: PropTypes.string,
+};
 
-export default Img
+export default Img;

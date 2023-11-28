@@ -1,35 +1,35 @@
 [
-    {
-       "altImg": "galleryImg1"
-    },
-    {
-        "altImg":"galleryImg2"
-    },
-    {
-        "altImg": "galleryImg3"
-     },
-     {
-        "altImg": "galleryImg4"
-     },
-     {
-        "altImg": "galleryImg5"
-     },
-     {
-        "altImg": "galleryImg6"
-     },
-     {
-        "altImg": "galleryImg7"
-     },
-     {
-        "altImg": "galleryImg8"
-     },
-     {
-        "altImg": "galleryImg9"
-     },
-     {
-        "altImg": "galleryImg10"
-     },
-     {
-        "altImg": "galleryImg11"
-     }
+	{
+		"altImg": "galleryImg1"
+	},
+	{
+		"altImg": "galleryImg2"
+	},
+	{
+		"altImg": "galleryImg3"
+	},
+	{
+		"altImg": "galleryImg4"
+	},
+	{
+		"altImg": "galleryImg5"
+	},
+	{
+		"altImg": "galleryImg6"
+	},
+	{
+		"altImg": "galleryImg7"
+	},
+	{
+		"altImg": "galleryImg8"
+	},
+	{
+		"altImg": "galleryImg9"
+	},
+	{
+		"altImg": "galleryImg10"
+	},
+	{
+		"altImg": "galleryImg11"
+	}
 ]

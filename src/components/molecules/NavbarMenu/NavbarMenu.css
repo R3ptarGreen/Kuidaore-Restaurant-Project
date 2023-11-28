@@ -1,60 +1,76 @@
 @keyframes swirl-in-fwd {
-  0% {
-    -webkit-transform: rotate(-180deg) scale(0);
-    transform: rotate(-180deg) scale(0);
-    opacity: 0; }
-  100% {
-    -webkit-transform: rotate(0) scale(1);
-    transform: rotate(0) scale(1);
-    opacity: 1; } }
+	0% {
+		-webkit-transform: rotate(-180deg) scale(0);
+		transform: rotate(-180deg) scale(0);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: rotate(0) scale(1);
+		transform: rotate(0) scale(1);
+		opacity: 1;
+	}
+}
 
 @keyframes scale-up-tr {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-    -webkit-transform-origin: 100% 0%;
-    transform-origin: 100% 0%; }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform-origin: 100% 0%;
-    transform-origin: 100% 0%; } }
+	0% {
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+		-webkit-transform-origin: 100% 0%;
+		transform-origin: 100% 0%;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: 100% 0%;
+		transform-origin: 100% 0%;
+	}
+}
 
 .menuNav__mobile {
-  display: flex;
-  flex-direction: row;
-  gap: 0;
-  justify-content: end;
-  align-items: center;
-  position: relative; }
+	display: flex;
+	flex-direction: row;
+	gap: 0;
+	justify-content: end;
+	align-items: center;
+	position: relative;
+}
 
 .menuNav__desktop {
-  display: none; }
+	display: none;
+}
 
 .mobile__menuNav {
-  position: absolute;
-  bottom: -12rem;
-  right: 0rem;
-  padding: 1rem 2rem;
-  background-color: var(--background); }
+	position: absolute;
+	bottom: -12rem;
+	right: 0rem;
+	padding: 1rem 2rem;
+	background-color: var(--background);
+}
 
 .visible {
-  display: block;
-  animation: scale-up-tr 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+	display: block;
+	animation: scale-up-tr 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
 
 .noVisible {
-  display: none; }
+	display: none;
+}
 
 .open {
-  display: block;
-  animation: swirl-in-fwd 0.3s ease-out; }
+	display: block;
+	animation: swirl-in-fwd 0.3s ease-out;
+}
 
 .noOpen {
-  display: none; }
+	display: none;
+}
 
 @media (min-width: 600px) {
-  .menuNav__mobile {
-    display: none; }
-  .menuNav__desktop {
-    display: flex;
-    margin-right: 2rem; } }
+	.menuNav__mobile {
+		display: none;
+	}
+	.menuNav__desktop {
+		display: flex;
+		margin-right: 2rem;
+	}
+}

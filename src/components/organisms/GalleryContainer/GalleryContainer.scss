@@ -1,62 +1,61 @@
 @import '../../../global/mixins.scss';
-.gallery{
-    padding-top: 4rem;
-    &__container{
-        @include flex(row, 1rem, center, center);
-        flex-wrap: wrap;
-        width: 100%;
-        padding: 0.25rem;
-    }
-    &__img{
-        border-radius: 1rem;
-        width: 100%;
-        max-width: 23rem;
-        height: 25rem;
-        transition: all 0.3s ease-in-out;
-        transform: scale(1);
-        &:hover{
-            transform: scale(1.05);
-        }
-    }
-    &__modal{
-        display: none;
-        padding-top: 4rem;
-        width: 100vw;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.75);
-        z-index: 0;
-    }
-    &__modal--active{
-        @include flex(row, 0, center, center);
-        position: fixed;
-    }
-    &__modalImg{
-        width: 75%;
-        z-index: 1;
-        border-radius: 1rem;
-    }
+.gallery {
+	padding-top: 4rem;
+	&__container {
+		@include flex(row, 1rem, center, center);
+		flex-wrap: wrap;
+		width: 100%;
+		padding: 0.25rem;
+	}
+	&__img {
+		border-radius: 1rem;
+		width: 100%;
+		max-width: 23rem;
+		height: 25rem;
+		transition: all 0.3s ease-in-out;
+		transform: scale(1);
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+	&__modal {
+		display: none;
+		padding-top: 4rem;
+		width: 100vw;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.75);
+		z-index: 0;
+	}
+	&__modal--active {
+		@include flex(row, 0, center, center);
+		position: fixed;
+	}
+	&__modalImg {
+		width: 75%;
+		z-index: 1;
+		border-radius: 1rem;
+	}
 }
 @media (min-width: 850px) {
-    .gallery{
-        &__modalImg{
-            width: 60%;
-        }
-    }
+	.gallery {
+		&__modalImg {
+			width: 60%;
+		}
+	}
 }
 @media (min-width: 1120px) {
-    .gallery{
-        &__modalImg{
-            width: 50%;
-        }
-    }
+	.gallery {
+		&__modalImg {
+			width: 50%;
+		}
+	}
 }
 @media (min-width: 1200px) {
-    .gallery{
-        &__modalImg{
-            width: 40%;
-        }
-    }
+	.gallery {
+		&__modalImg {
+			width: 40%;
+		}
+	}
 }
-

@@ -1,14 +1,11 @@
-
-import RestaurantsTemplate from "../components/templates/RestaurantsTemplate"
+import RestaurantsTemplate from '../components/templates/RestaurantsTemplate';
 
 const Restaurants = () => {
-  return (
-    <>
-     
-        <RestaurantsTemplate/>
-       
-    </>
-  )
-}
+	return (
+		<>
+			<RestaurantsTemplate />
+		</>
+	);
+};
 
-export default Restaurants
+export default Restaurants;

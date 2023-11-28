@@ -1,43 +1,43 @@
 @import '../../../global/mixins.scss';
-.contact{
-    &__section{
-        @include flex(row, 0, center, center);
-        width: 100%;
-    }
-    &__sectionTextContainer{
-        @include flex(column, 2rem, center, center);
-        max-width: 33rem;
-        cursor: default;
-    }
-    &__sectionTextInfoContainer{
-        @include flex(column, 0.5rem, center, center);
-    }
-    &__title{
-        color: var(--text);
-        text-align: center;
-        font-family: Work Sans;
-        font-size: 3rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    &__placeContainer{
-        @include flex(row, 0.5rem, center, center);
-        text-align: center;
-    }   
-    &__place{
-        color: var(--text);
-        text-align: center;
-        font-family: Work Sans;
-        font-size: 2rem;
-    }
-    &__tel{
-        color: var(--text);
-        font-size: 1rem;
-    }
-    &__schedule{
-        color: var(--text);
-        font-family: Merriweather;
-        font-size: 1rem;
-    }
+.contact {
+	&__section {
+		@include flex(row, 0, center, center);
+		width: 100%;
+	}
+	&__sectionTextContainer {
+		@include flex(column, 2rem, center, center);
+		max-width: 33rem;
+		cursor: default;
+	}
+	&__sectionTextInfoContainer {
+		@include flex(column, 0.5rem, center, center);
+	}
+	&__title {
+		color: var(--text);
+		text-align: center;
+		font-family: Work Sans;
+		font-size: 3rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+	&__placeContainer {
+		@include flex(row, 0.5rem, center, center);
+		text-align: center;
+	}
+	&__place {
+		color: var(--text);
+		text-align: center;
+		font-family: Work Sans;
+		font-size: 2rem;
+	}
+	&__tel {
+		color: var(--text);
+		font-size: 1rem;
+	}
+	&__schedule {
+		color: var(--text);
+		font-family: Merriweather;
+		font-size: 1rem;
+	}
 }

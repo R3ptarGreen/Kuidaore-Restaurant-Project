@@ -1,15 +1,11 @@
-
-import MenuTemplate from "../components/templates/MenuTemplate"
-
+import MenuTemplate from '../components/templates/MenuTemplate';
 
 const Menu = () => {
-  return (
-    <>
-     
-        <MenuTemplate/>
-   
-    </>
-  )
-}
+	return (
+		<>
+			<MenuTemplate />
+		</>
+	);
+};
 
-export default Menu
+export default Menu;

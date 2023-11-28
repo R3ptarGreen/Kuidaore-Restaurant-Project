@@ -1,12 +1,14 @@
 .linkMenuNav {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: end;
-  flex-wrap: wrap; }
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: end;
+	flex-wrap: wrap;
+}
 
 .link:hover {
-  color: var(--primary); }
+	color: var(--primary);
+}

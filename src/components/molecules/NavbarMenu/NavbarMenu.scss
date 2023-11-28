@@ -1,48 +1,48 @@
 @import '../../../global/mixins.scss';
 @import '../../../global/keyframes.scss';
 
-.menuNav{
-    &__mobile{
-        @include flex(row, 0, end, center);
-        position:relative;
-    }
-    &__desktop{
-        display: none;
-    }
+.menuNav {
+	&__mobile {
+		@include flex(row, 0, end, center);
+		position: relative;
+	}
+	&__desktop {
+		display: none;
+	}
 }
-.mobile{
-    &__menuNav{
-        position: absolute;
-        bottom: -12rem;
-        right: 0rem;
-        padding:  1rem 2rem;  
-        background-color: var(--background);
-    }
+.mobile {
+	&__menuNav {
+		position: absolute;
+		bottom: -12rem;
+		right: 0rem;
+		padding: 1rem 2rem;
+		background-color: var(--background);
+	}
 }
 
-.visible{
-    display: block;
-    animation: scale-up-tr 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+.visible {
+	display: block;
+	animation: scale-up-tr 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .noVisible {
-    display: none;
+	display: none;
 }
-.open{
-    display: block;
-    animation: swirl-in-fwd 0.3s ease-out;
+.open {
+	display: block;
+	animation: swirl-in-fwd 0.3s ease-out;
 }
-.noOpen{
-    display: none;
+.noOpen {
+	display: none;
 }
 
 @media (min-width: 600px) {
-    .menuNav{
-        &__mobile{
-            display: none;
-        }
-        &__desktop{
-            display: flex;
-            margin-right: 2rem;
-        }
-    }
+	.menuNav {
+		&__mobile {
+			display: none;
+		}
+		&__desktop {
+			display: flex;
+			margin-right: 2rem;
+		}
+	}
 }

@@ -1,11 +1,11 @@
-import GalleryContainer from "../organisms/GalleryContainer/GalleryContainer"
+import GalleryContainer from '../organisms/GalleryContainer/GalleryContainer';
 
 const GalleryTemplate = () => {
-  return (
-    <>
-        <GalleryContainer/>
-    </>
-  )
-}
+	return (
+		<>
+			<GalleryContainer />
+		</>
+	);
+};
 
-export default GalleryTemplate
+export default GalleryTemplate;

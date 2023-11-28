@@ -1,13 +1,11 @@
-
-import GalleryTemplate from "../components/templates/GalleryTemplate"
-
+import GalleryTemplate from '../components/templates/GalleryTemplate';
 
 const Gallery = () => {
-  return (
-    <>   
-        <GalleryTemplate/>
-    </>
-  )
-}
+	return (
+		<>
+			<GalleryTemplate />
+		</>
+	);
+};
 
-export default Gallery
+export default Gallery;
