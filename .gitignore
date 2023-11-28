@@ -11,18 +11,17 @@ node_modules
 dist
 dist-ssr
 *.local
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+*.cjs
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-
 .prettierrc
 .prettierignore
 .eslintrc.cjs
