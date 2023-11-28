@@ -6,7 +6,7 @@
 	  "locationPlace": "Tokyo - Shibuya",
 	  "ip": "35.664035, 139.698212",
 	  "title": "Shibuya Sushi",
-	  "tel": "Tel: (81) 3-xxxx-xxxx",
+	  "tel": "Tel: (81) 33-7536-3908",
 	  "schedule": "Monday to Sunday: 11:30am - 10:00pm",
 	  "img": "public/assets/img/tokyo.jpg"
 	},
@@ -14,7 +14,7 @@
 	  "locationPlace": "Osaka - Namba",
 	  "ip": "34.665442, 135.501281",
 	  "title": "Osaka Ramen",
-	  "tel": "Tel: (81) 6-xxxx-xxxx",
+	  "tel": "Tel: (81) 63-3229-4339",
 	  "schedule": "Tuesday to Saturday: 12:00pm - 11:00pm",
 	  "img": "public/assets/img/osaka.jpg"
 	},
@@ -22,7 +22,7 @@
 	  "locationPlace": "Kyoto - Gion",
 	  "ip": "35.003330, 135.777244",
 	  "title": "Gion Teppanyaki",
-	  "tel": "Tel: (81) 75-xxxx-xxxx",
+	  "tel": "Tel: (81) 75-8928-8898",
 	  "schedule": "Wednesday to Sunday: 5:00pm - 10:30pm",
 	  "img": "public/assets/img/kyoto.jpg"
 	},
@@ -30,7 +30,7 @@
 	  "locationPlace": "Fukuoka - Hakata",
 	  "ip": "33.589886, 130.418023",
 	  "title": "Hakata Express",
-	  "tel": "Tel: (81) 92-xxxx-xxxx",
+	  "tel": "Tel: (81) 92-7736-7618",
 	  "schedule": "Monday to Friday: 11:00am - 9:00pm",
 	  "img": "public/assets/img/fukuoka.jpg"
 	}
