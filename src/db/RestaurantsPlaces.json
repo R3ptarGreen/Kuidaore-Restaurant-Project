@@ -1,21 +1,37 @@
 [
 	{
-		"locationPlace": "Select Location"
+	  "locationPlace": "Select Location"
 	},
 	{
-		"locationPlace": "Tokyo - Akihabara",
-		"ip": "35.658971866157806, 139.8175904255858",
-		"title": "Tokyo",
-		"schedule": "Mondays to Fridays: 1:00pm - 9:30pm",
-		"tel": "Tel:(99900111)",
-		"img": "/public/assets/img/tokyo.jpg"
+	  "locationPlace": "Tokyo - Shibuya",
+	  "ip": "35.664035, 139.698212",
+	  "title": "Shibuya Sushi",
+	  "tel": "Tel: (81) 3-xxxx-xxxx",
+	  "schedule": "Monday to Sunday: 11:30am - 10:00pm",
+	  "img": "public/assets/img/tokyo.jpg"
 	},
 	{
-		"locationPlace": "Nagoya - Osama",
-		"ip": "35.13919456101272, 136.91050966703955",
-		"title": "Nagoya",
-		"tel": "Tel:(99900111)",
-		"schedule": "Mondays to Fridays: 2:00pm - 10:30pm",
-		"img": "/public/assets/img/nagoya.jpg"
+	  "locationPlace": "Osaka - Namba",
+	  "ip": "34.665442, 135.501281",
+	  "title": "Osaka Ramen",
+	  "tel": "Tel: (81) 6-xxxx-xxxx",
+	  "schedule": "Tuesday to Saturday: 12:00pm - 11:00pm",
+	  "img": "public/assets/img/osaka.jpg"
+	},
+	{
+	  "locationPlace": "Kyoto - Gion",
+	  "ip": "35.003330, 135.777244",
+	  "title": "Gion Teppanyaki",
+	  "tel": "Tel: (81) 75-xxxx-xxxx",
+	  "schedule": "Wednesday to Sunday: 5:00pm - 10:30pm",
+	  "img": "public/assets/img/kyoto.jpg"
+	},
+	{
+	  "locationPlace": "Fukuoka - Hakata",
+	  "ip": "33.589886, 130.418023",
+	  "title": "Hakata Express",
+	  "tel": "Tel: (81) 92-xxxx-xxxx",
+	  "schedule": "Monday to Friday: 11:00am - 9:00pm",
+	  "img": "public/assets/img/fukuoka.jpg"
 	}
-]
+  ]
