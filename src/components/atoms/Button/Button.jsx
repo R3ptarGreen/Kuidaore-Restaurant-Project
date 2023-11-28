@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Button = ({buttonText, color}) => {
   return (
     <>
-        <button className={`button ${color}`}>{buttonText}</button>
+        <button className={`button ${color}`} >{buttonText}</button>
     </>
   )
 }

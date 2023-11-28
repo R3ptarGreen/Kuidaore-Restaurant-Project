@@ -19,6 +19,10 @@
         color: var(--text);
         text-align: center;
     }
+    &__link{
+        width: fit-content;
+        height: fit-content;
+    }
 }
 .heroButtonPrimary{
     background-color: var(--primary);
