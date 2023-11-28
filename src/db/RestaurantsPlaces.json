@@ -7,12 +7,14 @@
         "ip": "35.658971866157806, 139.8175904255858",
         "title": "Tokyo",
         "schedule": "Mondays to Fridays: 1:00pm - 9:30pm",
+        "tel":"Tel:(99900111)",
         "img": "/public/assets/img/tokyo.jpg"
     },
     {
         "locationPlace": "Nagoya - Osama",
         "ip": "35.13919456101272, 136.91050966703955",
         "title": "Nagoya",
+        "tel":"Tel:(99900111)",
         "schedule": "Mondays to Fridays: 2:00pm - 10:30pm",
         "img": "/public/assets/img/nagoya.jpg"
     }

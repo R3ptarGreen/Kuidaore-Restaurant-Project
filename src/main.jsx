@@ -7,6 +7,7 @@ import Menu from './pages/Menu.jsx'
 import Restaurants from './pages/Restaurants.jsx'
 import Gallery from './pages/Gallery.jsx'
 import Home from './pages/Home.jsx'
+import Contact from './pages/Contact.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       {path: '/menu', element: <Menu/>},
       {path: '/restaurants', element: <Restaurants/>},
       {path: '/gallery', element: <Gallery/>},
+      {path: '/contact', element: <Contact/>}
     ]
   },
   {

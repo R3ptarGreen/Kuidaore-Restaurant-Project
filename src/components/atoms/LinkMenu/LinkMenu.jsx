@@ -7,7 +7,7 @@ const LinkMenu = () => {
         <a className='link' href="/menu"><p>Menu</p></a>
         <a className='link' href="/restaurants"><p>Restaurant</p></a>
         <a className='link' href="/gallery"><p>Gallery</p></a>
-        <a className='link' href=""><p>Contact</p></a>
+        <a className='link' href="/contact"><p>Contact</p></a>
     </div>
   )
 }
