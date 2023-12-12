@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Img = ({ altImg, className, onClick }) => {
-	const routeFile = `/public/assets/img/${altImg}.png`;
+	const routeFile = `/assets/img/${altImg}.png`;
 
 	return (
 		<>

@@ -1,31 +1,31 @@
 .hero__textContainer {
-	display: flex;
-	flex-direction: column;
-	gap: 0.5rem;
-	justify-content: center;
-	align-items: center;
-	z-index: 1;
-	cursor: default;
-}
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  cursor: default; }
 
 .hero__title {
-	color: var(--text);
-	font-family: Work Sans;
-	font-size: 3rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	text-align: center;
-}
+  color: var(--text);
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center; }
 
 .hero__text {
-	color: var(--text);
-	text-align: center;
-}
+  color: var(--text);
+  text-align: center; }
+
+.hero__link {
+  width: fit-content;
+  height: fit-content; }
 
 .heroButtonPrimary {
-	background-color: var(--primary);
-	color: var(--text);
-	border-radius: 1rem;
-	cursor: pointer;
-}
+  background-color: var(--primary);
+  color: var(--text);
+  border-radius: 1rem;
+  cursor: pointer; }

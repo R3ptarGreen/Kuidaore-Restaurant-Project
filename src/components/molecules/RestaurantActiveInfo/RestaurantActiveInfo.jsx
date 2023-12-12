@@ -1,15 +1,13 @@
 import './RestaurantActiveInfo.scss';
 import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
+import restaurantsData from '../../../db/RestaurantsPlaces.json'
 const RestaurantActiveInfo = ({ onLocationSelect }) => {
 	const [data, setData] = useState([]);
 	const [selectedLocation, setSelectedLocation] = useState({});
 	const [selectedIndex, setSelectedIndex] = useState(0);
 	useEffect(() => {
-		fetch('src/db/RestaurantsPlaces.json')
-			.then(response => response.json())
-			.then(data => setData(data))
-			.catch(error => console.log('ERRO DataBase', error));
+		setData(restaurantsData)
 	}, []);
 
 	const handleLocation = e => {

@@ -1,7 +1,7 @@
 import L from 'leaflet';
 
 const customMark = L.icon({
-	iconUrl: 'public/assets/svg/markLocation.svg',
+	iconUrl: 'assets/svg/markLocation.svg',
 	iconSize: [32, 32],
 	iconAnchor: [16, 32],
 	popupAnchor: [0, -32],

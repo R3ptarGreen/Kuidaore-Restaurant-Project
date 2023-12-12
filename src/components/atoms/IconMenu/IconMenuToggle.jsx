@@ -6,12 +6,12 @@ const IconMenuToggle = ({ menuToggle, classNameCloseMenu, classNameMenu }) => {
 		<button className='menuToggle' onClick={menuToggle}>
 			<img
 				className={classNameMenu}
-				src='/public/assets/svg/menuToggle.svg'
+				src='/assets/svg/menuToggle.svg'
 				alt='menuToggle'
 			/>
 			<img
 				className={classNameCloseMenu}
-				src='/public/assets/svg/closeMenuToggle.svg'
+				src='/assets/svg/closeMenuToggle.svg'
 				alt='closeMenuToggle'
 			/>
 		</button>

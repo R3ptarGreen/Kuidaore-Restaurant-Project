@@ -1,24 +1,21 @@
 .footer__footerContainer {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	justify-content: center;
-	align-items: center;
-	padding: 0 4rem;
-	padding-top: 5rem;
-	padding-bottom: 2rem;
-}
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem; }
 
 .footer__footerSectionsContainer {
-	display: flex;
-	flex-direction: row;
-	gap: 2rem;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-}
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
 
 .footer__footerCopyright {
-	text-align: center;
-	color: var(--text);
-}
+  text-align: center;
+  color: var(--text); }

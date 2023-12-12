@@ -1,14 +1,11 @@
 import './ContactSection.scss';
 import { useEffect, useState } from 'react';
-
+import contactData from '../../../db/RestaurantsPlaces.json'
 const ContactSection = () => {
 	const [data, setData] = useState([]);
 
 	useEffect(() => {
-		fetch('src/db/RestaurantsPlaces.json')
-			.then(response => response.json())
-			.then(data => setData(data))
-			.catch(error => console.log('Error DataBase', error));
+		setData(contactData)
 	}, []);
 	console.log(data);
 	return (

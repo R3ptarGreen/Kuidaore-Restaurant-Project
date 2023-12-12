@@ -2,7 +2,7 @@ import './Icon.scss';
 import PropTypes from 'prop-types';
 
 const Icon = ({ altIcon, link }) => {
-	const routeIcon = `/public/assets/svg/${altIcon}.svg`;
+	const routeIcon = `/assets/svg/${altIcon}.svg`;
 	return (
 		<>
 			<a className='iconLink' href={link}>

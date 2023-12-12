@@ -1,6 +1,6 @@
 import Button from '../../atoms/Button/Button';
 import './HeroTextAndButton.scss';
-
+import {Link} from 'react-router-dom'
 const HeroTextAndButton = () => {
 	return (
 		<div className='hero__textContainer'>
@@ -9,9 +9,9 @@ const HeroTextAndButton = () => {
 				Our menu, designed by expert chefs with a passion for authenticity,
 				offers a dining experience that captures the essence of Japan.
 			</p>
-			<a className='hero__link' href='/contact'>
+			<Link className='hero__link' to='contact'>
 				<Button buttonText={'Contact'} color={'heroButtonPrimary'} />
-			</a>
+			</Link>
 		</div>
 	);
 };

@@ -1,34 +1,29 @@
 .footer__footerSections {
-	display: flex;
-	flex-direction: column;
-	gap: 1.25rem;
-	justify-content: start;
-	align-items: start;
-	min-height: 8.5rem;
-	width: 11rem;
-}
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  justify-content: start;
+  align-items: start;
+  min-height: 8.5rem;
+  width: 11rem; }
 
 .footer__footerSectionsTitle {
-	color: var(--text);
-	font-family: Work Sans;
-	font-size: 1.5rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	cursor: default;
-}
+  color: var(--text);
+  font-family: Work Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: default; }
 
 .footer__footerSectionsLinksContainer {
-	display: flex;
-	flex-direction: column;
-	gap: 0.5rem;
-	justify-content: center;
-	align-items: start;
-}
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: start; }
 
 .footerLink {
-	color: var(--text);
-}
-.footerLink:hover {
-	color: var(--primary);
-}
+  color: var(--text); }
+  .footerLink:hover {
+    color: var(--primary); }

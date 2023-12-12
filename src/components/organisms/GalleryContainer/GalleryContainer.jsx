@@ -1,16 +1,14 @@
 import Img from '../../atoms/Img/Img';
 import { useEffect, useState } from 'react';
 import './GalleryContainer.scss';
+import galleryData from '../../../db/GalleryAltImg.json'
 const GalleryContainer = () => {
 	const [data, setData] = useState([]);
 	const [modalOpen, setModalOpen] = useState(false);
 	const [selectedImg, setSelectedImg] = useState('');
 
 	useEffect(() => {
-		fetch('src/db/GalleryAltImg.json')
-			.then(response => response.json())
-			.then(data => setData(data))
-			.catch(error => console.log('Error Data Base', error));
+		setData(galleryData)
 	}, []);
 
 	const handleModal = srcImg => {

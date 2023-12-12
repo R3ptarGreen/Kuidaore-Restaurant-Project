@@ -1,23 +1,23 @@
 import './LinkMenu.scss';
-
+import {Link} from 'react-router-dom'
 const LinkMenu = () => {
 	return (
 		<div className='linkMenuNav'>
-			<a className='link' href='/'>
+			<Link className='link' to='/'>
 				<p>Home</p>
-			</a>
-			<a className='link' href='/menu'>
+			</Link>
+			<Link className='link' to='menu'>
 				<p>Menu</p>
-			</a>
-			<a className='link' href='/restaurants'>
+			</Link>
+			<Link className='link' to='restaurants'>
 				<p>Restaurant</p>
-			</a>
-			<a className='link' href='/gallery'>
+			</Link>
+			<Link className='link' to='gallery'>
 				<p>Gallery</p>
-			</a>
-			<a className='link' href='/contact'>
+			</Link>
+			<Link className='link' to='contact'>
 				<p>Contact</p>
-			</a>
+			</Link>
 		</div>
 	);
 };

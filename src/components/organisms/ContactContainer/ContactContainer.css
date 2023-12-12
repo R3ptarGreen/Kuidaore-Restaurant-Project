@@ -1,0 +1,28 @@
+.contact {
+  padding-top: 4rem; }
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  .contact__sectionImg {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  .contact__img {
+    max-width: 23rem; }
+
+@media (min-width: 950px) {
+  .contact__container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: start;
+    align-items: center; }
+  .contact__img {
+    max-width: 30rem; } }

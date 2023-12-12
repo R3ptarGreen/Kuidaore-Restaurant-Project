@@ -41,7 +41,7 @@ Kuidaore is a project designed and coded by Edgar Mendez. It's just a prototype 
 
 ### Links
 
-- Live Site URL: [Check out the live site here](https://glistening-salamander-8843f6.netlify.app/)
+- Live Site URL: [Kuidaore](https://657817593dc55c2bf8bc9cd9--helpful-figolla-5fce0d.netlify.app/#/contact)
 
 ### Contribution
 
