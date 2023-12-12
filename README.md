@@ -41,7 +41,7 @@ Kuidaore is a project designed and coded by Edgar Mendez. It's just a prototype 
 
 ### Links
 
-- Live Site URL: [Kuidaore](https://657817593dc55c2bf8bc9cd9--helpful-figolla-5fce0d.netlify.app/#/contact)
+- Live Site URL: [Kuidaore](https://657817593dc55c2bf8bc9cd9--helpful-figolla-5fce0d.netlify.app/#/)
 
 ### Contribution
 
